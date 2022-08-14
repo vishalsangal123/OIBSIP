@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature Converter</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+
+    <div class="display">
+
+      <div class="degree">
+        <label for="degree">Degrees</label><br />
+        <input type="text" name="degree" id="degree" placeholder="Enter degree" />
+      </div>
+
+      <div class="type">
+        <label for="type">Type:</label><br />
+        <select name="type" id="type">
+          <option value="0">Select type</option>
+          <option value="1">celsius</option>
+          <option value="2">Fahrenheit</option>
+        </select>
+
+      </div>
+  <div class="degree">
+    <label for="result">Result</label><br />
+    <input type="text" name="result" id="result" disabled/>
+  </div>
+  <div class="degree">
+  <button type="button" onclick="convertor()" class="button">Convertor</button>
+</div>
+    </div>
+</div>
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

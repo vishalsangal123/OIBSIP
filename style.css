@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    hsl(161, 65%, 81%) 2%,
+    #cbe994ef 100%
+  );
+  color: rgba(0, 0, 0, 0.788);
+  display: flex;
+  justify-content: center;
+  margin: 7rem;
+}
+.container {
+  height: 80vh;
+  width: 70vw;
+  background-color: #fff;
+  box-shadow: 2px -2px 70px rgba(0, 0, 0, 0.836);
+  border-radius: 10px;
+}
+.display .degree {
+  margin-right: 2rem;
+  text-align: center;
+}
+.degree label {
+  font-size: 1.3rem;
+}
+.degree input {
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 5px 15px;
+  text-align: center;
+}
+.display .type {
+  margin-right: 2rem;
+  text-align: center;
+}
+.type label {
+  font-size: 1.3rem;
+}
+.type select,option {
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 5px 15px;
+  text-align: center;
+}
+.button {
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 5px 15px;
+  text-align: center;
+}
+.container h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+
+@media only screen and (max-width: 2000px) {
+  body {
+    margin: 3rem;
+    overflow-y: hidden;
+  }
+  .container h1 {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .degree input {
+    width: 200px;
+    outline: 0px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+  }
+  .type select,option {
+    width: 200px;
+    outline: 0px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+  }
+  .button
+  {
+    width: 200px;
+    outline: 0px;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+  }
+  
+}
